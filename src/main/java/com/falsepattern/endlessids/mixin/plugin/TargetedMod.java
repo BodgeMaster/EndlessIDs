@@ -27,6 +27,7 @@ public enum TargetedMod implements ITargetedMod {
     EB("Enhanced Biomes", false, startsWith("Enhanced Biomes").or(startsWith("enhancedbiomes"))),
     ENDERLICIOUS("Enderlicious", false, startsWith("enderlicious-")),
     EREBUS("The Erebus", false, startsWith("theerebus")),
+    EXTENDEDPLANETS("Extended Planets", false, startsWith("ExtendedPlanets")),
     EXTRAPLANETS("Extra Planets", false, startsWith("extraplanets-")),
     EXTRAUTILITIES("Extra Utilities", false, startsWith("extrautilities-")),
     FUTUREPACK("Futurepack", false, startsWith("[1.7.10]futurepack").or(startsWith("futurepack-"))),

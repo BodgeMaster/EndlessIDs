@@ -144,6 +144,27 @@ public enum Mixin implements IMixin {
     //region Erebus->common
     ErebusModBiomesMixin(Side.COMMON, require(TargetedMod.EREBUS), "erebus.ModBiomesMixin"),
     //endregion Erebus->common
+    //region ExtendedPlanets->common
+    ExtendedPlanetsChunkProviderAppleapachiaMixin(Side.COMMON, require(TargetedMod.EXTENDEDPLANETS), "extendedplanets.ChunkProviderAppleapachiaMixin"),
+    //TODO: BiomeSpace?
+    //TODO: Ceres
+    //TODO: Domonce
+    //TODO: Helema
+    //TODO: Io
+    //TODO: Jupiter
+    //TODO: Magna
+    //TODO: Mavison
+    //TODO: Munce
+    //TODO: Ocean?
+    //TODO: OrbitPluto?
+    //TODO: Otherlyworld
+    //TODO: Pandorium
+    //TODO: Plemtes
+    //TODO: Pluto
+    //TODO: Rukan
+    //TODO: Saturn
+    //TODO: VelaA
+    //endregion ExtendedPlanets->common
     //region ExtraPlanets->common
     ExtraPlanetsConfigMixin(Side.COMMON, require(TargetedMod.EXTRAPLANETS), "extraplanets.ConfigMixin"),
     //endregion ExtraPlanets->common
